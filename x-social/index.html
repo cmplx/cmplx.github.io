@@ -17,9 +17,9 @@
 <script type="text/javascript"> 
   VK.init(function() { 
      console.log('ok');
-     VK.api('users.get', {user_ids: 210700286, fields: 'bdate'}, function(r) {
+     VK.api('users.get', {user_ids: 16303947, fields: 'bdate'}, function(r) {
 if(r.response) {
-alert(r.response[0].bdate);
+console.log(r.response[0]);
 }
 });
   }, function() { 
