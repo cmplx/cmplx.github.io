@@ -17,7 +17,7 @@
 <script type="text/javascript"> 
   VK.init(function() { 
      console.log('ok');
-     VK.Api.call('users.get', {user_ids: 210700286, fields: 'bdate'}, function(r) {
+     VK.api('users.get', {user_ids: 210700286, fields: 'bdate'}, function(r) {
 if(r.response) {
 alert(r.response[0].bdate);
 }
