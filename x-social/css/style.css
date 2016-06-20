@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+select{
+  color: yellow;
+  font-family: Consolas;
+  background-color: blue;
+  display: block;
+  font-size: 1.2em;
+  max-width: 350px;
+}
