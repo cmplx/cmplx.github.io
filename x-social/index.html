@@ -18,9 +18,9 @@
   VK.init(function() { 
      console.log('ok');
      VK.api('users.get', {user_ids: 16303947, fields: 'bdate'}, function(r) {
-if(r.response) {
-console.log(r.response[0]);
-}
+
+console.log(r);
+
 });
   }, function() { 
      // API initialization failed 
