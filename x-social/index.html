@@ -21,6 +21,11 @@
      // API initialization failed 
      console.log('fail');
 }, '5.52'); 
+VK.Api.call('users.get', {user_ids: 210700286, fields: 'bdate'}, function(r) {
+if(r.response) {
+alert(r.response[0].bdate);
+}
+});
 </script>
 
 <div id="container">
